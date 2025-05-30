@@ -22,15 +22,31 @@
     <main>
         <section id="bio">
             <h1>
-                Welcome to Rafael's Website! <br>
-                Ever since I recall myself, I've always been passionate about the geek world. Games, comics, books, anime, movies and much more. Being able to experience those stories in the confort of my room was priceless.
-                <br>I think I've been playing games since I was 3, might have played almost a thousand. Since I started working I haven't had that much time, but I still try to play as much as I can.
+                Welcome to Rafael's Website!
             </h1>
+            <figure>
+                <a href="images/myself.jpg" target="_blank">
+                <!-- I was not able to create the thumbnail, could you help me later? Sorry -->
+                <img
+                    src="images/myself.jpg"
+                    srcset="images/myself.jpg 150w, images/myself.jpg 300w" 
+                    sizes="(max-width: 500px) 150px, 300px"
+                    alt="A picture of me">
+                <figcaption>Click to view original picture</figcaption>
+                </a>
+                </figure>
+
+            <p>Ever since I recall myself, I've always been passionate about the geek world. Games, comics, books, anime, movies and much more. Being able to experience those stories in the confort of my room was priceless.
+                <br>I think I've been playing games since I was 3, might have played almost a thousand. Since I started working I haven't had that much time, but I still try to play as much as I can.
+            </p>
             <h2>
                 My Favourite Things
             </h2>
             <a target="_blank">
-                <img href="images/logo.jpg" src="images/logo.jpg" alt="Favorite Logo">
+                <figure>
+                    Video Games <br>
+                    <img href="images/logo.jpg" src="images/logo.jpg" alt="Favorite Logo">
+                </figure>
             </a>
             <h3 id="top3games">
                 Games I Love:
@@ -41,6 +57,28 @@
                 <li>Persona 5 Royal</li>
             </ol>
         </section>
+
+        <section id="embedding-external-content">
+            <h3>Public Domain Audiobook</h3>
+            <audio controls>
+                <source src="https://dn721207.ca.archive.org/0/items/thesnowman_2503_librivox/snowman_01_sand_64kb.mp3" type="audio/mpeg">
+                <p>Unfortunately your browser does not support audio.
+                <a href="https://dn721207.ca.archive.org/download/0/items/thesnowman_2503_librivox/snowman_01_sand_64kb.mp3" download>Click here to download the audiobook.</a>
+                </p>
+            </audio>
+    
+            <h3>YouTube Video</h3>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/shorts/JPuPny-Ol8M"
+                title="YouTube Video Player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            <p>Unfortunately your browser does not support IFrame</p>
+            </iframe>
+    
+        </section>
+
         <section id="haiku">
             <h3>
                 Haiku
@@ -55,7 +93,6 @@
     </main>
         <footer>
             <hr>
-
             <blockquote>
                 "The only way to do great work is to love what you do." &mdash; 
                 <!-- Found Me! -->
@@ -67,6 +104,17 @@
                 Rafael
                 </a>
             </p>
+
+            <section id="image-support">
+            <picture>
+                <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
+                <img
+                src="images/sc-logo/sc-logo.png"
+                srcset="images/sc-logo/sc-logo_105.png 1.5x, images/sc-logo/sc-logo_140.png 2x"
+                width="70px"
+                alt="Sault College Logo">
+            </picture>
+            </section>
         </footer>
         <a href=#top title="Back to top">◤</a>
     </div>
