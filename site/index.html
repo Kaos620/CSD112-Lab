@@ -29,12 +29,13 @@
                 <!-- I was not able to create the thumbnail, could you help me later? Sorry -->
                 <img
                     src="images/myself.jpg"
-                    srcset="images/myself.jpg 150w, images/myself.jpg 300w" 
+                    <!-- Presumably these would exist within the images directory. -->
+                    srcset="images/myself-150.jpg 150w, images/myself-300.jpg 300w, images/myself-150.jpg" 
                     sizes="(max-width: 500px) 150px, 300px"
                     alt="A picture of me">
-                <figcaption>Click to view original picture</figcaption>
                 </a>
-                </figure>
+               <figcaption>Click to view original picture</figcaption>
+            </figure>
 
             <p>Ever since I recall myself, I've always been passionate about the geek world. Games, comics, books, anime, movies and much more. Being able to experience those stories in the confort of my room was priceless.
                 <br>I think I've been playing games since I was 3, might have played almost a thousand. Since I started working I haven't had that much time, but I still try to play as much as I can.
@@ -188,11 +189,10 @@
 
             <section id="image-support">
             <picture>
-                <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
+                <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml" width="70">
                 <img
                 src="images/sc-logo/sc-logo.png"
                 srcset="images/sc-logo/sc-logo_105.png 1.5x, images/sc-logo/sc-logo_140.png 2x"
-                width="70px"
                 alt="Sault College Logo">
             </picture>
             </section>
