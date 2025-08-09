@@ -119,5 +119,11 @@ dt::after {
   content: ":";
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* removes inline spacing */
+}
+
 
 
