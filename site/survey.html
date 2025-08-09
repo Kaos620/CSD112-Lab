@@ -13,25 +13,21 @@
   <div class="width-wrap">
     <header id="top">
       <nav>
-        <ul>
+        <!-- <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="links.html">Links</a></li>
           <li><a href="glossary.html">Glossary</a></li>
-        </ul>
+        </ul> -->
+        <script src="scripts/navbar.js"></script>
       </nav>
     </header>
     <main>
-        <section id="useful-links">
-            <h1>Useful Links</h1>
-            <ul>
-                <li><a target="_blank" href="https://realfavicongenerator.net/" title="A link to FavIcon Generator">FavIcon Generator</a></li>
-                <li><a target="_blank" href="https://validator.w3.org title=" title="A link to HTML Validator">Validator</a></li>
-            </ul>
-        </section>
+        <div id="survey">
+          <script src="scripts/survey.js"></script>
+        </div>
     </main>
         <footer>
             <hr>
-
             <blockquote>
                 "The only way to do great work is to love what you do." &mdash; 
                 <!-- Found Me! -->
@@ -43,8 +39,19 @@
                 Rafael
                 </a>
             </p>
+
+            <section id="image-support">
+            <picture>
+                <source srcset="images/sc-logo/sc-logo.svg" type="image/svg+xml">
+                <img
+                src="images/sc-logo/sc-logo.png"
+                srcset="images/sc-logo/sc-logo_105.png 1.5x, images/sc-logo/sc-logo_140.png 2x"
+                width="70px"
+                alt="Sault College Logo">
+            </picture>
+            </section>
         </footer>
+        <a href=#top title="Back to top">◤</a>
     </div>
-    <a href=#top title="Back to top">◤</a>
 </body>
 </html>
